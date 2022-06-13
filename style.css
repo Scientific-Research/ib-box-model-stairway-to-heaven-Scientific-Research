@@ -1,0 +1,90 @@
+/* Margin Box */
+
+.margin-box{
+    width: 800px;
+    height: 800px;
+    background-color: white;
+    border: 10px palevioletred solid;
+    box-sizing: border-box;
+}
+
+    .ersterBox{
+    width: 200px;
+    height: 200px;
+    background-color:rgb(131, 236, 11);
+    border: 10px green solid;
+    box-sizing: border-box;
+    margin-top: 580px;
+    margin-left: 00px;
+    }
+
+    .zweiterBox{
+    width: 200px;
+    height: 200px;
+    background-color:rgb(131, 236, 11);
+    box-sizing: border-box;
+    margin-top: -400px;
+    margin-left: 200px;
+    }
+
+    .dritteBox{
+    width: 200px;
+    height: 200px;
+    background-color:rgb(131, 236, 11);
+    border: 10px green solid;
+    box-sizing: border-box;
+    margin-top: -400px;
+    margin-left: 400px;
+    }
+
+    .vierteBox{
+    width: 180px;
+    height: 180px;
+    background-color:rgb(131, 236, 11);
+    box-sizing: border-box;
+    margin-top: -380px;
+    margin-left: 600px;
+    }
+
+    /* Padding Staircase */
+
+    /* .padding-box > div{ */
+    .padding-box > .Box1,
+                   .Box2,
+                   .Box3,
+                   .Box4{
+        background-color: red;
+        height: 100px;
+        width: 100px;
+    }
+
+    /* .padding-box > div div{ */
+    .padding-box > .Box1 .Box1-1,
+                   .Box2 .Box2-2,
+                   .Box3 .Box3-3,
+                   .Box4 .Box4-4{
+        background-color: yellow;
+        width: 100px;
+        height: 100px;
+        border: 5px rgb(206, 95, 113) solid;
+        box-sizing: border-box;
+    }
+
+    .Box1{
+        padding-left: 00px;
+    }
+    .Box2{
+        padding-left: 100px;
+
+    }
+    .Box3{
+        padding-left: 200px;
+
+    }
+    .Box4{
+        padding-left: 300px;
+    }
+
+
+ 
+
